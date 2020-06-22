@@ -456,25 +456,7 @@ namespace api.Controllers
 
         };
 
-        [HttpGet("[action]/{ProductCategoryId}")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<List<Product>> Get(int ProductCategoryId)
-        { 
-            
-           
-            if (ProductCategoryId > 0)
-            {
-                return ProductItems.Where(x=>x.ProductCategoryId==ProductCategoryId).ToList();
-            }
-            else
-            {
-                return ProductItems.ToList() ;
-
-           
-            }
-           
-        }
+       
         [HttpGet("[action]/{ProductCategoryId}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
