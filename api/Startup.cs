@@ -43,6 +43,7 @@ namespace api
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseDirectoryBrowser();
             // app.UseStaticFiles(new StaticFileOptions
             // {
             //     FileProvider = new PhysicalFileProvider(
@@ -50,12 +51,12 @@ namespace api
             //     RequestPath = "/Images"
             // });
             // //Enable directory browsing
-            app.UseDirectoryBrowser(new DirectoryBrowserOptions
-            {
-                FileProvider = new PhysicalFileProvider(
-                            Path.Combine(Directory.GetCurrentDirectory(), "Images")),
-                RequestPath = "/Images"
-            });
+            // app.UseDirectoryBrowser(new DirectoryBrowserOptions
+            // {
+            //     FileProvider = new PhysicalFileProvider(
+            //                 Path.Combine(Directory.GetCurrentDirectory(), "Images")),
+            //     RequestPath = "/Images"
+            // });
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
