@@ -13,7 +13,7 @@ namespace api.Controllers
     [Route("api/[controller]")]
     public class ProductController : Controller
     {
-        private static readonly List<Product> ProductItems = new List<Product>
+    private static readonly List<Product> ProductItems = new List<Product>
         {
             new Product
                         {
@@ -21,19 +21,19 @@ namespace api.Controllers
                     ShopId =1,
                     Name ="potato",
                     Title ="organic",
-                    Image ="Images/Product/potato.jpg",
+                    Image ="https://images.all-free-download.com/images/graphiclarge/potatoes_highdefinition_picture_4_167260.jpg",
                     IsTrending =1,
                       Price =120,
                     Description = "120 per kg",
                     ProductCategoryId=1 ,
-                     ProductCategory =new List<ProductCategoryList>
+                     ProductCategory = new List<ProductCategoryList>
                     {
                                   new  ProductCategoryList
                                   {
                                       Id =2,
                                         Name ="Fruits",
                                         Description ="Fruits",
-                                        Image ="Images/ProductCategory/vegetables.jpg",
+                                        Image ="https://jooinn.com/images/fresh-fruits-1.jpg",
                                         Title ="Fruits",
                                   }
 
@@ -47,19 +47,19 @@ namespace api.Controllers
                     ShopId =1,
                     Name ="Tomato",
                     Title ="organic",
-                    Image ="Images/Product/tomato.jpg",
+                    Image ="https://study.com/cimages/multimages/16/adobestock_34617669.jpeg",
                     IsTrending =1,
                       Price =60,
                     Description = "60 per kg",
                     ProductCategoryId=1,
-                     ProductCategory =new List<ProductCategoryList>
+                     ProductCategory = new List<ProductCategoryList>
                     {
                                   new  ProductCategoryList
                                   {
                                       Id =2,
                                         Name ="Fruits",
                                         Description ="Fruits",
-                                        Image ="Images/ProductCategory/vegetables.jpg",
+                                        Image ="https://jooinn.com/images/fresh-fruits-1.jpg",
                                         Title ="Fruits",
                                   }
 
@@ -72,19 +72,19 @@ namespace api.Controllers
                     ShopId =1,
                     Name ="Mango",
                     Title ="organic",
-                    Image ="Images/Product/mango.jpg",
+                    Image ="https://images-na.ssl-images-amazon.com/images/I/71GpOmt0CVL._SL1500_.jpg",
                     IsTrending =1,
                       Price =60,
                     Description = "60 per kg",
                     ProductCategoryId=2,
-                     ProductCategory =new List<ProductCategoryList>
+                     ProductCategory = new List<ProductCategoryList>
                     {
                                   new  ProductCategoryList
                                   {
                                       Id =2,
                                         Name ="Fruits",
                                         Description ="Fruits",
-                                        Image ="Images/ProductCategory/fresh-fruits-1.jpg",
+                                        Image ="https://jooinn.com/images/fresh-fruits-1.jpg",
                                         Title ="Fruits",
                                   }
 
@@ -98,19 +98,19 @@ namespace api.Controllers
                     ShopId =1,
                     Name ="Strawberry",
                     Title ="organic",
-                    Image ="Images/Product/strawberry.jpg",
+                    Image ="https://qph.fs.quoracdn.net/main-qimg-e98d17a843754bcbdf34705ad72920cb",
                     IsTrending =1,
                       Price =60,
                     Description = "60 per kg",
                     ProductCategoryId=2,
-                     ProductCategory =new List<ProductCategoryList>
+                     ProductCategory = new List<ProductCategoryList>
                     {
                                   new  ProductCategoryList
                                   {
                                       Id =2,
                                         Name ="Fruits",
                                         Description ="Fruits",
-                                        Image ="Images/ProductCategory/fresh-fruits-1.jpg",
+                                        Image ="https://jooinn.com/images/fresh-fruits-1.jpg",
                                         Title ="Fruits",
                                   }
 
@@ -123,19 +123,19 @@ namespace api.Controllers
                     ShopId =1,
                     Name ="Kiwi",
                     Title ="organic",
-                    Image ="Images/Product/kiwi.jpg",
+                    Image ="https://i.ndtvimg.com/i/2015-10/kiwi-fruit_625x350_81445871711.jpg",
                     IsTrending =1,
                       Price =60,
                     Description = "60 per kg",
                     ProductCategoryId=2,
-                     ProductCategory =new List<ProductCategoryList>
+                     ProductCategory = new List<ProductCategoryList>
                     {
                                   new  ProductCategoryList
                                   {
                                       Id =2,
                                         Name ="Fruits",
                                         Description ="Fruits",
-                                        Image ="Images/ProductCategory/fresh-fruits-1.jpg",
+                                        Image ="https://jooinn.com/images/fresh-fruits-1.jpg",
                                         Title ="Fruits",
                                   }
 
@@ -148,19 +148,19 @@ namespace api.Controllers
                     ShopId =1,
                     Name ="Paul Masson",
                     Title ="organic",
-                    Image ="Images/Product/paul massion.jpg",
+                    Image ="https://www.proof66.com/images/hires/201201180618494f16aa995dce3.jpg",
                     IsTrending =1,
                       Price =2660,
                     Description = "2660 per kg",
                     ProductCategoryId=3,
-                     ProductCategory =new List<ProductCategoryList>
+                     ProductCategory = new List<ProductCategoryList>
                     {
                                   new  ProductCategoryList
                                   {
                                       Id =3,
                                         Name ="Liquor",
                                         Description ="Liquor",
-                                        Image ="Images/ProductCategory/liquor.jpg",
+                                        Image ="https://tjsliquor.com/files/2019/03/1552587960384_dl1.jpg",
                                         Title ="Liquor",
                                   }
 
@@ -173,19 +173,19 @@ namespace api.Controllers
                     ShopId =1,
                     Name ="Clos Malverne",
                     Title ="organic",
-                    Image ="Images/Product/clos marvin.jpg",
+                    Image ="https://closmalverne.co.za/wp-content/uploads/2019/04/Clos-malverne-sauv-blanc.jpg",
                     IsTrending =1,
                       Price =2660,
                     Description = "2660 per kg",
                     ProductCategoryId=3,
-                     ProductCategory =new List<ProductCategoryList>
+                     ProductCategory = new List<ProductCategoryList>
                     {
                                   new  ProductCategoryList
                                   {
-                                       Id =3,
+                                      Id =3,
                                         Name ="Liquor",
                                         Description ="Liquor",
-                                        Image ="Images/ProductCategory/liquor.jpg",
+                                        Image ="https://tjsliquor.com/files/2019/03/1552587960384_dl1.jpg",
                                         Title ="Liquor",
                                   }
 
@@ -199,18 +199,18 @@ namespace api.Controllers
                     ShopId =1,
                     Name ="Jack Daniels",
                     Title ="organic",
-                    Image ="Images/Product/jack daniels.jpg",
+                    Image ="https://images.unsplash.com/photo-1527281400683-1aae777175f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
                     IsTrending =1,
                       Price =2660,
                     Description = "2660 per kg",  ProductCategoryId=3,
-                     ProductCategory =new List<ProductCategoryList>
+                     ProductCategory = new List<ProductCategoryList>
                     {
                                   new  ProductCategoryList
                                   {
-                                    Id =3,
+                                      Id =3,
                                         Name ="Liquor",
                                         Description ="Liquor",
-                                        Image ="Images/ProductCategory/liquor.jpg",
+                                        Image ="https://tjsliquor.com/files/2019/03/1552587960384_dl1.jpg",
                                         Title ="Liquor",
                                   }
 
@@ -223,18 +223,18 @@ namespace api.Controllers
                     ShopId =1,
                     Name ="Black Labels",
                     Title ="organic",
-                    Image ="Images/Product/black lebel.jpg",
+                    Image ="https://images.unsplash.com/photo-1569529465841-dfecdab7503b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
                     IsTrending =1,
                       Price =2660,
                     Description = "2660 per kg",  ProductCategoryId=3,
-                     ProductCategory =new List<ProductCategoryList>
+                     ProductCategory = new List<ProductCategoryList>
                     {
                                   new  ProductCategoryList
                                   {
-                                     Id =3,
+                                      Id =3,
                                         Name ="Liquor",
                                         Description ="Liquor",
-                                        Image ="Images/ProductCategory/liquor.jpg",
+                                        Image ="https://tjsliquor.com/files/2019/03/1552587960384_dl1.jpg",
                                         Title ="Liquor",
                                   }
 
@@ -247,18 +247,18 @@ namespace api.Controllers
                     ShopId =1,
                     Name ="Breads- Multigrain",
                     Title ="organic",
-                    Image ="Images/Product/multigrain bread.jpg",
+                    Image ="https://www.gutkafoodexports.com/wp-content/uploads/2014/10/bakrrey-940x360.jpg",
                     IsTrending =1,
                       Price =2660,
                     Description = "2660 per kg",ProductCategoryId=4,
-                     ProductCategory =new List<ProductCategoryList>
+                     ProductCategory = new List<ProductCategoryList>
                     {
                                   new  ProductCategoryList
                                   {
                                       Id =4,
                                         Name ="Bakery",
                                         Description ="Bakery",
-                                        Image ="Images/ProductCategory/bakery.jpg",
+                                        Image ="https://m.media-amazon.com/images/I/51J2zQiKxmL.jpg",
                                         Title ="Bakery",
                                   }
 
@@ -271,18 +271,18 @@ namespace api.Controllers
                     ShopId =1,
                     Name ="Breads",
                     Title ="organic",
-                    Image ="Images/Product/breads.jpg",
+                    Image ="https://lh5.googleusercontent.com/proxy/kjoaEl1HmDXVvaIp8Czr7y5XH14erZHocQ5GU65-PLNUSOJRuG6O9qHI-vMkffEsdOqQ2T87njsSmfaqy3RM-15ojYTv8cCC8RkWmQvs-6BFi-loyvg8rHA",
                     IsTrending =1,
                       Price =2660,
                     Description = "2660 per kg",ProductCategoryId=4,
-                     ProductCategory =new List<ProductCategoryList>
+                     ProductCategory = new List<ProductCategoryList>
                     {
                                   new  ProductCategoryList
                                   {
-                                       Id =4,
+                                      Id =4,
                                         Name ="Bakery",
                                         Description ="Bakery",
-                                        Image ="Images/ProductCategory/bakery.jpg",
+                                        Image ="https://m.media-amazon.com/images/I/51J2zQiKxmL.jpg",
                                         Title ="Bakery",
                                   }
 
@@ -296,18 +296,18 @@ namespace api.Controllers
                     ShopId =1,
                     Name ="Cup cakes",
                     Title ="organic",
-                    Image ="Images/Product/cupcake.jpg",
+                    Image ="https://www.kindpng.com/picc/m/187-1875321_buttercup-bake-shop-new-cake-bakery-items-png.png",
                     IsTrending =1,
                       Price =2660,
                     Description = "2660 per kg",ProductCategoryId=4,
-                     ProductCategory =new List<ProductCategoryList>
+                     ProductCategory = new List<ProductCategoryList>
                     {
                                   new  ProductCategoryList
                                   {
-                                       Id =4,
+                                      Id =4,
                                         Name ="Bakery",
                                         Description ="Bakery",
-                                        Image ="Images/ProductCategory/bakery.jpg",
+                                        Image ="https://m.media-amazon.com/images/I/51J2zQiKxmL.jpg",
                                         Title ="Bakery",
                                   }
 
@@ -456,6 +456,25 @@ namespace api.Controllers
 
         };
 
+        [HttpGet("[action]/{ProductCategoryId}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<List<Product>> Get(int ProductCategoryId)
+        { 
+            
+           
+            if (ProductCategoryId > 0)
+            {
+                return ProductItems.Where(x=>x.ProductCategoryId==ProductCategoryId).ToList();
+            }
+            else
+            {
+                return ProductItems.ToList() ;
+
+           
+            }
+           
+        }
         [HttpGet("[action]/{ProductCategoryId}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]

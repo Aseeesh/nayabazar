@@ -13,7 +13,7 @@ namespace api.Controllers
     [Route("api/[controller]")]
     public class ProductCategoryController : Controller
     {
-        private static readonly List<ProductCategory> ProductCategoryItems = new List<ProductCategory>
+     private static readonly List<ProductCategory> ProductCategoryItems = new List<ProductCategory>
         {
             new ProductCategory
             {
@@ -21,7 +21,7 @@ namespace api.Controllers
                 Name = "Vegetables",
                 Title="Vegetables",
                 Description="Vegetables",
-                Image="Images/ProductCategory/vegetables.jpg"
+                Image="https://cdn.britannica.com/17/196817-050-6A15DAC3/vegetables.jpg" 
             },
             new ProductCategory
             {
@@ -29,7 +29,7 @@ namespace api.Controllers
                 Name = "Fruits",
                 Title="Fruits",
                 Description="Fruits",
-                Image="Images/ProductCategory/fresh-fruits-1.jpg"
+                Image="https://jooinn.com/images/fresh-fruits-1.jpg"
             },
             new ProductCategory
             {
@@ -37,7 +37,7 @@ namespace api.Controllers
                 Name = "Liquor",
                 Title="Liquor",
                 Description="Liquor",
-                Image="Images/ProductCategory/liquor.jpg"
+                Image="https://tjsliquor.com/files/2019/03/1552587960384_dl1.jpg"
             },
             new ProductCategory
             {
@@ -45,7 +45,7 @@ namespace api.Controllers
                 Name = "Bakery",
                 Title="Bakery",
                 Description="Bakery",
-                Image="Images/ProductCategory/bakery.jpg"
+                Image="https://m.media-amazon.com/images/I/51J2zQiKxmL.jpg"
             }
 
 
